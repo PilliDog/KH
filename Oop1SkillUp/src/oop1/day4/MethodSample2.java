@@ -42,5 +42,19 @@ public class MethodSample2 {
 	
 	public static void method3() {}
 	public void method4() {} //인스턴스 메소드
+	
+	/**
+	 * <결론>
+	 * static??
+	 * 1. static 왜 쓰는가?
+	 * 	쉽게 생각해보기 위해서 Math 생각해보기
+	 * static영역에 한번에 넣고 필요할 때마다 쓸 수 있도록 만들어서
+	 * 메모리 소모를 줄여준다
+	 * 
+	 * 2. 언제써야해?
+	 * 쓰이는 빈도가 높으면서 여러 곳에서 같은 상태를 유지하고 싶을때(공유)
+	 * 그리고 객체 생성이 굳이 필요하지 않을때
+	 */
+	
 
 }
