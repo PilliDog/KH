@@ -11,8 +11,8 @@ public class ExceptionTest {
 		//e.test1();
 //		e.test2();
 //		e.test3();
-//		e.test4();
-		e.test5();
+		e.test4();
+//		e.test5();
 		System.out.println("프로그램 종료");
 	}
 	
@@ -88,7 +88,7 @@ public class ExceptionTest {
 		try {
 			System.out.println(100/0);
 		}catch(Exception e) {
-//			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
 	}//test4
