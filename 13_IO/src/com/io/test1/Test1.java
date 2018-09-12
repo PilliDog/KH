@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Test1 {
 	Scanner sc = new Scanner(System.in);
-
+//올라가라
 	public static void main(String[] args) {
 //		new Test1().fileSave();
 		new Test1().fileRead();
