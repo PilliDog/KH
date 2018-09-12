@@ -21,6 +21,7 @@ public class StreamTest {
 	public static void main(String[] args) {
 		
 		 try{
+			 
 			 	//파일 객체를 생성
 			 	File file = new File("D:\\KH\\NCS\\src\\ncs\\test1\\Sample.txt");
 			 	//파일 입력 스트림

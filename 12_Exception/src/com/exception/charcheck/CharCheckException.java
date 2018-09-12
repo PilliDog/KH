@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public class CharCheckException extends RuntimeException {
 
-	public void countAlpha throws SQLException, IOException
-	{
-	}
+//	public void countAlpha throws SQLException, IOException
+//	{
+//	}
 }
